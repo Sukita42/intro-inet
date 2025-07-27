@@ -1,0 +1,63 @@
+table, th, td {
+  border:1px solid rgb(196, 196, 196);
+  border-collapse: collapse;
+}
+
+th, tr, td {
+    color: black;
+    font-family: "IBM Plex Sans Thai", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+th{
+    background-color: gainsboro;
+}
+
+#detail th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+#detail tr:hover{
+    background-color: #efefef;
+}
+
+h1{
+    color: rgb(79, 79, 155);
+    font-family: "IBM Plex Sans Thai", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    color: rgb(255, 0, 0);
+   font-family: "IBM Plex Sans Thai", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h3 {
+    color: rgb(255, 0, 0);
+   font-family: "IBM Plex Sans Thai", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: justify;
+    line-height: auto;
+}
+
+div.image {
+  margin: 20px;
+  float: left;
+  width: auto;
+}
+
+div.image img{
+    width: auto;
+    height: 400px;
+}
+
+
