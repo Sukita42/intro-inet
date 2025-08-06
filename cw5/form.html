@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>ส่วนที่ 1: ข้อมูลส่วนตัวของผู้สมัคร</h1>
+    <h3>ให้กรอกข้อมูลดังนี้</h3>
+    <p>คำนำหน้าชื่อ</p>
+
+    <form action="">
+        <input type="radio" id="Mr" name="Mr" value="">
+        <label for="Mr">นาย</label><br>
+        <input type="radio" id="Miss" name="Miss" value="Miss">
+        <label for="Miss">นางสาว</label><br>
+        <input type="radio" id="Ms" name="Ms" value="Ms">
+        <label for="Ms">นาง</label><br>
+        <br>
+        <label for="fname">ชื่อ</label><br>
+        <input type="text" id="fname" name="fname" value="">
+        <br>
+        <br>
+        <label for="lname">นามสกุล</label><br>
+        <input type="text" id="lname" name="lname" value="">
+        <br>
+        <br>
+        <label for="">เลขบัตรประจำตัวประชาชน</label><br>
+        <input type="text" maxlength="13">
+        <br>
+        <br>
+        <label for="birthday">Birthday:</label><br>
+        <input type="date" id="birthday" name="birthday">
+        <br>
+        <br>
+        <label for="age">อายุ</label><br>
+        <input type="number" id="age" name="age" value="">
+        <br>
+        <p>เพศ</p>
+        <input type="radio" name="" id="">
+        <label for="">ชาย</label><br>
+        <input type="radio" name="" id="">
+        <label for="">หญิง</label><br>
+        <input type="radio" name="" id="">
+        <label for="">ไม่ระบุ</label><br>
+        <br>
+        <label for="">สัญชาติ</label><br>
+        <input type="text" name="" id="">
+        <br>
+        <br>
+        <label for="">เชื่อชาติ</label><br>
+        <input type="text" name="" id="">
+        <br>
+        <br>
+        <label for="">ศาสนา</label><br>
+        <input type="text" name="" id="">
+        <br>
+        <br>
+        <label for="">เบอร์โทรศัพท์</label><br>
+        <input type="tel" name="" id="">
+        <br>
+        <br>
+        <label for="">Email</label><br>
+        <input type="email" id="email" name="email">
+        <br>
+        <br>
+        <label for="">ที่อยู่</label><br>
+        <textarea name="message" id=""></textarea>
+    </form> 
+
+    <h1>ส่วนที่ 2: ข้อมูลการสมัครเรียน</h1>
+    <form action="">
+        <p>วุฒิการศึกษาที่จบ</p>
+        <input type="radio" name="" id="">
+        <label for="">ม.6</label><br>
+        <input type="radio" name="" id="">
+        <label for="">ปวช</label><br>
+        <input type="radio" name="" id="">
+        <label for="">ปวส</label><br>
+        <br>
+        <label for="">สถานศึกษาที่สำเร็จการศึกษา</label><br>
+        <input type="text" name="" id="">
+        <br>
+        <br>
+        <label for="">ปีการศึกษาที่จบ</label><br>
+        <input type="number" name="" id="">
+        <br>
+        <br>
+        <label for="">GPA</label><br>
+        <input type="number" name="" id="" step="0.01">
+        <br>
+        <br>
+        <label for="">สาขาที่สมัคร</label>
+        <select name="" id="">
+            <option value="">IT</option>
+            <option value="">ITI</option>
+            <option value="">INE</option>
+            <option value="">INET</option>
+        </select>
+        <br>
+        <br>
+        <label for="">เหตุผลที่เลือกสาขา</label><br>
+        <textarea name="" id=""></textarea>
+    </form>
+
+    <h1>ส่วนที่ 3: ประวัติการศึกษา</h1>
+    <p>ให้นักเรียนกรอกข้อมูลการศึกษา 3 ระดับ ได้แก่:</p>
+    <form action="">
+        
+    </form>
+
+    <h1>ส่วนที่ 4: เอกสารแนบ</h1>
+    <form action="" method="post" enctype="multipart/form-data">
+        <label for="">แนบไฟล์สำเนาบัตรประชาชน</label><br>
+        <input type="file" name="" id="">
+        <br>
+        <br>
+        <label for="">แนบไฟล์หลักฐานวุฒิการศึกษา</label><br>
+        <input type="file" name="" id="" multiple>
+    </form>
+
+    <h1>ส่วนที่ 5: ยืนยันและส่งฟอร์ม</h1>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1">เจ้ามั่นใจแล้วบ่</label><br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+</body>
+</html>
